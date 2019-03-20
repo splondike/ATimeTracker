@@ -184,8 +184,8 @@ public class Activities extends ListActivity implements ActivityCompat.OnRequest
             SET_WEEK_START_DAY = 12, BACKUP = 14, PREFERENCES = 15,
             PROGRESS_DIALOG = 16, RESTORE = 17;
     // TODO: This could be done better...
-    private static final String DB_FILE = "/data/data/com.markuspage.android.atimetracker/databases/timetracker.db";
-    private final File dbBackup = new File(Environment.getExternalStorageDirectory(), "timetracker.db");
+    public static final String DB_FILE = "/data/data/com.markuspage.android.atimetracker/databases/timetracker.db";
+    public final File dbBackup = new File(Environment.getExternalStorageDirectory(), "timetracker.db");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
